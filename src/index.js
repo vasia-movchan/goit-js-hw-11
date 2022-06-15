@@ -24,7 +24,7 @@ const optionsQuery = {
     orientation: 'horizontal',
     safesearch: true,
     page: 1,
-    per_page: 200,
+    per_page: 40,
   },
 };
 
