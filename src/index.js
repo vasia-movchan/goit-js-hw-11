@@ -30,6 +30,7 @@ const optionsQuery = {
 
 function searchImages(event) {
   event.preventDefault();
+  buttonLoadMore.classList.add('is-hidden');
   optionsQuery.params.page = 1;
   optionsQuery.params.q = event.target.elements.searchQuery.value;
 
